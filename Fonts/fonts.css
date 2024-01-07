@@ -1,0 +1,256 @@
+@font-face {
+    font-family: Marlin;
+    font-weight: 800;
+    font-display: fallback;
+    src: url(marlin.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Marlin Soft Basic;
+    font-weight: 400;
+    font-style: normal;
+    src: url(MarlinSoftBasic-Regular.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Marlin Soft Basic;
+    font-weight: 400;
+    font-style: italic;
+    src: url(MarlinSoftBasic-RegularItalic.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: url(inter-var-latin.woff2) format("woff2");
+    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-display: optional;
+    src: url(inter-var-latin.woff2) format("woff2");
+    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-display: optional;
+    src: url(inter-var-latin.woff2) format("woff2");
+    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-display: optional;
+    src: url(inter-var-latin.woff2) format("woff2");
+    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
+}
+
+@font-face {
+    font-family: InterVariable;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: normal;
+    src: url(inter-var-latin.woff2) format("woff2-variations");
+    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
+}
+
+@font-face {
+    font-family: Sohne Breit;
+    src: url(SohneBreit-Buch.woff2) format("woff2"),url(SohneBreit-Buch.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Sohne Breit;
+    src: url(SohneBreit-Dreiviertelfett.woff2) format("woff2"),url(SohneBreit-Dreiviertelfett.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Space Mono;
+    src: url(SpaceMono-Bold.woff2) format("woff2"),url(SpaceMono-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Space Mono;
+    src: url(SpaceMono-Regular.woff2) format("woff2"),url(SpaceMono-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Sohne Breit Extrafett;
+    src: url(SohneBreit-Extrafett.woff2) format("woff2"),url(SohneBreit-Extrafett.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: EB Garamond;
+    src: url(EBGaramond-Regular.woff2) format("woff2"),url(/EBGaramond-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ABC Favorit Mono;
+    src: url(ABCFavoritMono-BoldItalic.woff2) format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ABC Favorit Mono;
+    src: url(ABCFavoritMono-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ABC Favorit Mono;
+    src: url(ABCFavoritMono-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ABC Favorit Mono;
+    src: url(ABCFavoritMono-RegularItalic.woff2) format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ABC Favorit Mono;
+    src: url(ABCFavoritMono-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ABC Favorit Mono;
+    src: url(ABCFavoritMono-MediumItalic.woff2) format("woff2");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-RegularItalic.woff2) format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-BoldItalic.woff2) format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-ExtraBold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-ExtraBoldItalic.woff2) format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-ExtraBlack.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Marlin Soft SQ;
+    src: url(MarlinSoftSQ-ExtraBlackItalic.woff2) format("woff2");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: __sfProRounded_5d5a7a;
+    src: url(ffe589f5afe86015-s.p.otf) format("opentype");
+    font-display: swap;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: __sfProRounded_5d5a7a;
+    src: url(8b75779b4de3da5a-s.p.otf) format("opentype");
+    font-display: swap;
+    font-weight: 600
+}
+
+@font-face {
+    font-family: __sfProRounded_Fallback_5d5a7a;
+    src: local("Arial");
+    ascent-override:101.52%;descent-override:25.72%;line-gap-override:0%;size-adjust:93.79%}
+
+.__className_5d5a7a {
+    font-family: __sfProRounded_5d5a7a,__sfProRounded_Fallback_5d5a7a
+}

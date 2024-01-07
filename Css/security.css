@@ -1,0 +1,231 @@
+/* file: privacy.css */
+
+/* Init */
+:root {
+    --primary-blue-color: #3139FB;
+    --primary-red-color: #FF3333;
+    --primary-yellow-color: #FFB223;
+    --secondary-blue-color: #0047FF;
+
+    --primary-text-color: #FFFCEC;
+    --secondary-text-color: #FFB223;
+    --primary-subtitle-color: #696969;
+
+    --primary-background-color: #3139FB;
+    --secondary-background-color: #FFFCEC;
+
+    --primary-font: 'Marlin Soft SQ', sans-serif;
+    --secondary-font: 'InterVariable', sans-serif;
+    --third-font: 'ABC Favorit Mono', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+}
+
+body {
+    background-color: var(--secondary-blue-color);
+}
+
+/* Website Style */
+
+.first-section {
+    display: flex;
+    justify-content: left;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.first-path {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--secondary-blue-color);
+    height: 500px;
+    max-width: 800px;
+}
+
+.first-path .title {
+    font-size: 32px;
+    margin-left: 0;
+    margin-bottom: 35px;
+}
+
+.first-path h2 {
+    font-size: 40px;
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+}
+
+.first-path h3,
+.first-path h4 {
+    color: var(--primary-text-color);
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--secondary-background-color);
+}
+
+.text div {
+    margin-bottom: 75px;
+}
+
+.text .title-p {
+    color: var(--secondary-blue-color);
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    color: var(--primary-subtitle-color);
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-blue-color);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.detail-footer {
+    width: 100%;
+    height: 13px;
+    transform: rotate(180deg);
+    background-image: url('../Import/wave.png');
+    background-size: cover;
+    background-position: center;
+    background-color: var(--secondary-background-color);
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+
+.product-footer {
+    margin-top: 60px;
+}
+
+.product-footer h1,
+.product-footer a {
+    color: var(--primary-text-color);
+    font-family: var(--third-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025rem;
+    font-size: 16px;
+}
+
+.product-footer a {
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-footer a:hover {
+    text-decoration: underline;
+}
+
+.product-footer .link {
+    margin-top: 15px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: var(--primary-text-color);
+    font-family: var(--third-font);
+    font-weight: 700;
+    letter-spacing: 0.025rem;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    /* Pages */
+    
+    .text div {
+        margin-bottom: 55px;
+    }
+    
+    .text .title-p {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    
+    p {
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    /* First Section */
+
+    
+    .first-section {
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+        align-items: center;
+    }
+
+    .first-path {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--secondary-blue-color);
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .first-path .title {
+        font-size: 32px;
+        margin-left: -15px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .first-path h2 {
+        font-size: 35px;
+        color: var(--primary-text-color);
+        margin-bottom: 15px;
+    }
+
+    .first-path h3 {
+        font-size: 10px;
+        color: var(--primary-text-color);
+    }
+
+    .first-path h4 {
+        font-size: 16px;
+        color: var(--primary-text-color);
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    .copyright {
+        bottom: 5px;
+        left: 5px;
+        letter-spacing: 0.025rem;
+        font-size: 10px;
+    }
+}

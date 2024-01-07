@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css -->
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/navbar.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="../Fonts/fonts.css">
+</head>
+<body>
+
+    <!-- Navbar Content -->
+
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="../Import/logo.svg" alt="logo">
+            <label onclick="OpenNav()" id="hamburger-navbar" for="navbar-toggle" class="navbar-toggle-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="links-list">
+                <a href="#" class="link active">Home</a>
+                <a href="product.html" class="link">Product</a>
+                <a href="contact.html" class="link">Contact</a>
+            </ul>
+            <button class="visit-btn--1">Visit</button>
+        </nav>
+    </header>
+
+    <div class="overlay" id="overlay">
+        <label onclick="CloseNav()" id="hamburger-navbar-toggle" for="navbar-toggle" class="navbar-toggle-icon-toggle">
+            <span></span>
+            <span></span>
+        </label>
+        <!-- Contenu de l'overlay ici -->
+        <h1>CodeAccelerate</h1>
+
+        <ul class="links-list-mobile">
+            <a href="#" class="link active">Home</a>
+            <a href="product.html" class="link">Product</a>
+            <a href="contact.html" class="link">Contact</a>
+        </ul>
+    </div>
+
+    <div class="detail-nav"></div>
+
+    <!-- Website Content -->
+
+    <h1 class="title">Code<span>Accelerate</span>.</h1>
+    <p>Quand la vitesse et le code se mélangent parfaitement.</p>
+
+    <div class="first-img">
+        <img src="../Import/Code.png" alt="Carbon Source Code Image">
+    </div>
+
+    <!-- Footer Content -->
+
+    <div class="detail-footer"></div>
+    <footer>
+        <section class="information">
+            <div class="product-footer">
+                <h1>Product</h1>
+
+                <div class="link">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="Terms.html">Terms & Conditions</a>
+                    <a href="security.html">Security</a>
+                </div>
+            </div>
+        </section>
+
+        <p class="copyright">Copyright &copy; 2024 CodeAccelerate. All rights reserved.</p>
+    </footer>
+
+    <script src="../Javascript/navbar.js"></script>
+</body>
+</html>
