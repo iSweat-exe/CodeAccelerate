@@ -32,6 +32,14 @@
 }
 
 /* Navbar */
+
+img {
+    margin-left: 10px;
+    width: 70%;
+    display: block;
+    margin-top: 5px;
+}
+
 .active {
     color: var(--primary-red-color) !important;
 }

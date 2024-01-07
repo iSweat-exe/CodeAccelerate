@@ -147,6 +147,13 @@ h1 {
     margin-left: 10px;
 }
 
+img {
+    margin-left: 10px;
+    width: 70%;
+    display: block;
+    margin-top: 5px;
+}
+
 .navbar-toggle-icon-toggle {
     margin-top: 8px;
     margin-right: 10px;
