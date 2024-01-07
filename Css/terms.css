@@ -35,6 +35,10 @@ body {
 
 /* Website Style */
 
+.surlink {
+    background-color: var(--primary-red-color);
+}
+
 .first-section {
     display: flex;
     justify-content: left;
@@ -95,9 +99,10 @@ body {
 }
 
 p {
-    text-align: center;
+    text-align: left;
     color: var(--primary-subtitle-color);
     font-size: 18px;
+    max-width: 1000px;
 }
 
 /* Footer */

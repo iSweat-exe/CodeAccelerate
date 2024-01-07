@@ -95,9 +95,10 @@ body {
 }
 
 p {
-    text-align: center;
+    text-align: left;
     color: var(--primary-subtitle-color);
     font-size: 18px;
+    max-width: 1000px;
 }
 
 /* Footer */
