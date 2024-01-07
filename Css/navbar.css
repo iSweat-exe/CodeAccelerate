@@ -63,6 +63,7 @@ header {
 }
 
 .links-list {
+    margin-top: 5px;
     display: flex;
     list-style: none;
     align-items: center;
@@ -150,11 +151,6 @@ header {
     border-radius: 3px;
 }
 
-h1 {
-    color: var(--primary-text-color);
-    margin-left: 10px;
-}
-
 .navbar-toggle-icon-toggle {
     margin-top: 8px;
     margin-right: 10px;
@@ -195,11 +191,6 @@ h1 {
 
     .navbar-toggle-icon {
         display: block;
-    }
-
-    h1 {
-        margin-top: 5px;
-        font-size: 30px;
     }
 
     .links-list {
