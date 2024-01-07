@@ -16,6 +16,11 @@
     --third-font: 'ABC Favorit Mono', sans-serif;
 }
 
+::selection {
+    background-color: yellow; /* Couleur de fond lors de la sélection */
+    color: black; /* Couleur du texte lors de la sélection */
+}
+
 * {
     padding: 0;
     margin: 0;
