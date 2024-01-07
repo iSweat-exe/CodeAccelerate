@@ -84,7 +84,7 @@ p {
 /* Footer */
 
 footer {
-    background-color: var(--primary-blue-color);
+    background-color: var(--secondary-blue-color);
     width: 100%;
     height: 300px;
     position: absolute;
