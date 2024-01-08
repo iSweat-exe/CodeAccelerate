@@ -14,19 +14,19 @@
     --primary-background-color: #3139FB;
     --secondary-background-color: #FFFCEC;
 
-    --primary-font: 'Marlin Soft SQ', sans-serif;
-    --secondary-font: 'InterVariable', sans-serif;
-    --third-font: 'ABC Favorit Mono', sans-serif;
+    --primary-font: 'Plus Jakarta Sans', sans-serif;
+    --secondary-font: 'Plus Jakarta Sans', sans-serif;
+    --third-font: 'Plus Jakarta Sans', sans-serif;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--primary-font);
+    /* font-family: var(--primary-font); */
     list-style: none;
     text-decoration: none;
-    letter-spacing: -0.05em;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -42,6 +42,8 @@ body {
     margin-top: 30px;
     color: var(--primary-text-color);
     font-size: 56px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
 }
 
 p {
